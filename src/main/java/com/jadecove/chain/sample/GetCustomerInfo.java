@@ -13,7 +13,6 @@ import org.apache.commons.chain2.Command;
 
 public class GetCustomerInfo implements Command<String, Object, GetCustomerInfoContext > {
 
-
 	@Override
 	public boolean execute(GetCustomerInfoContext ctx) {
 		System.out.println("Get customer info");
