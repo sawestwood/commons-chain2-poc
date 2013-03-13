@@ -11,6 +11,14 @@ import org.apache.commons.chain2.Command;
 //	}
 //}
 
-public class GetCustomerInfo {
+public class GetCustomerInfo implements Command<String, Object, GetCustomerInfoContext > {
+
+
+	@Override
+	public boolean execute(GetCustomerInfoContext ctx) {
+		System.out.println("Get customer info");
+		ctx.put("customerName","George Burdell");
+		return false;
+	}
 	
-}
+} 
