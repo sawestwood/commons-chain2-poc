@@ -7,6 +7,7 @@ import com.jadecove.chain.sample.GetCustomerInfoContext;
 import com.jadecove.chain.sample.SellVehicleChain;
 
 public class OReillyOnJavaSampleAppPart1Page1 {
+	
 	public static void main(String[] args) {
 		Command<String, Object, ContextBase> process = new SellVehicleChain();
 		ContextBase ctx = new GetCustomerInfoContext();
