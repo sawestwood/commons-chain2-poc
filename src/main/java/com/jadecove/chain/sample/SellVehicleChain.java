@@ -1,8 +1,9 @@
 package com.jadecove.chain.sample;
 
 import org.apache.commons.chain2.impl.ChainBase;
+import org.apache.commons.chain2.impl.ContextBase;
 
-public class SellVehicleChain extends ChainBase<String, Object, GetCustomerInfoContext > {
+public class SellVehicleChain extends ChainBase<String, Object, ContextBase > {
 	
 	public SellVehicleChain() {
 		super();

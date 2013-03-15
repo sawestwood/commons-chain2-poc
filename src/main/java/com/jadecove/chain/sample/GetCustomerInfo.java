@@ -1,6 +1,7 @@
 package com.jadecove.chain.sample;
 
 import org.apache.commons.chain2.Command;
+import org.apache.commons.chain2.impl.ContextBase;
 
 
 //public class GetCustomerInfo implements Command<K, V, Map<K,V>> {
@@ -11,10 +12,10 @@ import org.apache.commons.chain2.Command;
 //	}
 //}
 
-public class GetCustomerInfo implements Command<String, Object, GetCustomerInfoContext > {
+public class GetCustomerInfo implements Command<String, Object, ContextBase > {
 
 	@Override
-	public boolean execute(GetCustomerInfoContext ctx) {
+	public boolean execute(ContextBase ctx) {
 		System.out.println("Get customer info");
 		ctx.put("customerName","George Burdell");
 		return false;
