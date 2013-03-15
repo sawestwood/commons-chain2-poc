@@ -10,6 +10,7 @@ the O'Reilly OnJava site (http://www.onjava.com/pub/a/onjava/2005/03/02/commonch
 are reimplemented  using a new version of commons-chain. 
 
 In undertaking this work:
+
 1. Original package and class names have been retained where possible (much of the original work was packaged under com.jadecove.chain.sample)
 2. However the application classes (i.e. those with a main() method) are located under uk.org.hexsaw)
 3. The Java class containing main() are labelled using a combination of part number and page number.
