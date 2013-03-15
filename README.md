@@ -24,4 +24,4 @@ Therefore, to run the samples:
 
 Thus from Maven, to run the first sample use
 
-	mvn exec:java -Dexec.mainClass="uk.org.hexsaw.OReillyOnJavaSampleAppPart1Page1
+	mvn exec:java -Dexec.mainClass="uk.org.hexsaw.OReillyOnJavaSampleAppPart1Page1" -Dexec.args="%classpath"
