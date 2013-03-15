@@ -10,5 +10,10 @@ public class CloseSale implements Command<String, Object, ContextBase > {
 		System.out.println("Congratulations " + ctx.get("customerName") + ", you bought a new car!");
 		return false;	
 	}
+	
+	public boolean execute(SellVehicleContext ctx) {
+		System.out.println("Congratulations " + ctx.getCustomerName() + ", you bought a new car!");
+		return false;	
+	}	
 
 }

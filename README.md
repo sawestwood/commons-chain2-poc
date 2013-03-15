@@ -18,9 +18,9 @@ In undertaking this work:
 
 Therefore, to run the samples:
 
-* Part 1 Page 1- http://www.onjava.com/pub/a/onjava/2005/03/02/commonchains.html can be run using  OReillyOnJavaSampleAppPart1Page1.java
+* Part 1 Page 1- http://www.onjava.com/pub/a/onjava/2005/03/02/commonchains.html can be run using OReillyOnJavaSampleAppPart1Page1.java
 
-* Part 1 Page 2 - 
+* Part 1 Page 2- Use OReillyOnJavaSampleAppPart1Page2
 
 Thus from Maven, to run the first sample use
 
