@@ -12,15 +12,17 @@ are reimplemented using commons-chain2.
 In undertaking this work:
 
 1. Original package and class names have been retained where possible (much of the original work was packaged under com.jadecove.chain.sample)
-2. However the application classes (i.e. those with a main() method) are located under ukthe package uk.org.hexsaw.
+2. However the application classes (i.e. those with a main() method) are located under the package uk.org.hexsaw.
 3. The classes containing main() are labelled using a combination of part number and page number that defines the source of the sample (for example OReillyOnJavaSampleAppPart1Page1)
 4. commons-chain2 now assumes JDK6 usage
 
 Therefore, to run the samples:
 
-* Part 1 Page 1- http://www.onjava.com/pub/a/onjava/2005/03/02/commonchains.html can be run using OReillyOnJavaSampleAppPart1Page1.java
+* Part 1 Page 1- http://www.onjava.com/pub/a/onjava/2005/03/02/commonchains.html can be run using **OReillyOnJavaSampleAppPart1Page1.java**
 
-* Part 1 Page 2- Use OReillyOnJavaSampleAppPart1Page2
+* Part 1 Page 2- Use **OReillyOnJavaSampleAppPart1Page2.java**
+
+* Part 1 Page 2 using a Catalog XML file - Use **OReillyOnJavaSampleAppPart1Page2WithCatalog.java**
 
 Thus from Maven, to run the first sample use
 
