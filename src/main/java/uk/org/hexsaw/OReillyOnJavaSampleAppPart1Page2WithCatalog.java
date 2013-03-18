@@ -20,7 +20,7 @@ public class OReillyOnJavaSampleAppPart1Page2WithCatalog {
 				ConfigParser parser = new ConfigParser();
 				parser.parse(url);
 				CatalogFactory<String, Object, ContextBase> catalogFactory = CatalogFactoryBase.getInstance();
-				Catalog catalog = catalogFactory.getCatalog();		
+				Catalog<String, Object, ContextBase> catalog = catalogFactory.getCatalog();		
 				catalog.getCommand("sell-vehicle").execute(new SellVehicleContext());
 		} catch (Exception e) {
 			e.printStackTrace();

@@ -18,12 +18,14 @@ In undertaking this work:
 
 Therefore, to run the samples:
 
-* Part 1 Page 1- http://www.onjava.com/pub/a/onjava/2005/03/02/commonchains.html can be run using **OReillyOnJavaSampleAppPart1Page1.java**
+* Part 1 Page 1- The sample on http://www.onjava.com/pub/a/onjava/2005/03/02/commonchains.html can be run using **OReillyOnJavaSampleAppPart1Page1.java**
 
 * Part 1 Page 2- Use **OReillyOnJavaSampleAppPart1Page2.java**
 
-* Part 1 Page 2 using a Catalog XML file - Use **OReillyOnJavaSampleAppPart1Page2WithCatalog.java**
+* Part 1 Page 2 using a Catalog XML file - Execute using **OReillyOnJavaSampleAppPart1Page2WithCatalog.java**
 
-Thus from Maven, to run the first sample use
+Note that the output from all these samples will be the same! They merely use different approaches to process identified commands.
 
-	mvn exec:java -Dexec.mainClass="uk.org.hexsaw.OReillyOnJavaSampleAppPart1Page1" -Dexec.args="%classpath"
+Thus from Maven, to run the first sample use:
+
+	mvn compile exec:java -Dexec.mainClass="uk.org.hexsaw.OReillyOnJavaSampleAppPart1Page1" -Dexec.args="%classpath"
