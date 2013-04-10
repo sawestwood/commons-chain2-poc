@@ -3,7 +3,8 @@ commons-chain2-poc
 
 This collection of samples references a snapshot version of **commons-chain2**, a revised implementation of 
 the commons-chains GoF **Chain of Responsibility** pattern from the Apache Software Foundation (see http://commons.apache.org/proper/commons-chain/). 
-The revised version of commons-chain2 is now available in the Apache SVN trunk at http://svn.apache.org/repos/asf/commons/proper/chain/trunk/. 
+The revised version of commons-chain2 is now available in the Apache SVN trunk at http://svn.apache.org/repos/asf/commons/proper/chain/trunk/. It is 
+assumed that you have an artefact available comprising the 2.0-SNAPSHOT release against which these samples can be run.
 
 OnJava ( March 2005)
 --------------------
