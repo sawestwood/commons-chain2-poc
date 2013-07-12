@@ -6,7 +6,7 @@ the commons-chains GoF **Chain of Responsibility** pattern from the Apache Softw
 The revised version of commons-chain2 is now available in the Apache SVN trunk at http://svn.apache.org/repos/asf/commons/proper/chain/trunk/. It is 
 assumed that you have an artefact available comprising the 2.0-SNAPSHOT release against which these samples can be run.
 
-OnJava ( March 2005)
+OnJava ( published March 2005)
 --------------------
 In the first instance, this repository revisits a 2-part example of commons-chains from March 2005  published via 
 the O'Reilly OnJava site (http://www.onjava.com/pub/a/onjava/2005/03/02/commonchains.html). Here, the samples illustrated
@@ -26,7 +26,7 @@ Thus from Maven, to run the first sample use:
 
 	mvn compile exec:java -Dexec.mainClass="uk.org.hexsaw.OReillyOnJavaSampleAppPart1Page1" -Dexec.args="%classpath"
 	
-Kam - one of those blogs ( July 2009)
+Kam - one of those blogs ( published July 2009)
 -------------------------------------
 The blog entry http://www.dotkam.com/2009/07/26/apache-chain-with-spring/ provides a simple example of commons-chains used with Spring. As with 
 the first example, the code has been copied as-is and revised to accommodate commons-chain2. This sample bootstraps Spring, loads a simple 
